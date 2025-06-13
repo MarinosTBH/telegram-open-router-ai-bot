@@ -29,7 +29,7 @@ app.post(`/bot${token}`, async (req, res) => {
         headers: {
           'Authorization': `Bearer ${process.env.OPENROUTER_TOKEN}`,
           'Content-Type': 'application/json',
-          'HTTP-Referer': 'https://your-domain.com', // required by OpenRouter
+          'HTTP-Referer': process.env.SERVER_URL, // required by OpenRouter
           'X-Title': 'TelegramBot',
         },
       }
