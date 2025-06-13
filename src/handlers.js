@@ -24,6 +24,9 @@ function registerBotHandlers(bot) {
       case 'tarek':
         response = '🧿 Yaatek asba ya sarakik ya taiwan';
         break;
+      case 'esra':
+        response = '🧿 Ya esra ya 97 ya sbo3 l9ay';
+        break;
       default:
         response = '🧿 Yaatek asba ala rasek enty weli maak !';
         break;
